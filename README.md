@@ -1,0 +1,1 @@
+# mactalk-ai-course
