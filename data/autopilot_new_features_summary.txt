@@ -1,0 +1,6 @@
+New Features Added to Tesla Autopilot:
+
+- Enhanced Autopilot Auto Lane Change: Assists in moving to an adjacent lane on the highway when Autosteer is engaged.
+- Autopark: Helps automatically parallel or perpendicular park your car, with a single touch.
+- Summon: Moves your car in and out of a tight space using the mobile app or key.
+- Service Mode Enhancements: New diagnostic screens for seat belts, the HVAC system, and a way to calibrate auto-appearing door handles on a Model S.

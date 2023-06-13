@@ -1,0 +1,3 @@
+Autopilot is an advanced driver assistance system that enhances safety and convenience behind the wheel. When used properly, Autopilot reduces your overall ...
+
+The currently enabled Autopilot, Enhanced Autopilot and Full Self-Driving features require active driver supervision and do not make the vehicle autonomous.
