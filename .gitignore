@@ -2,4 +2,5 @@ data/GoogleNews-vectors-negative300.bin.gz
 data/cc.en.300.bin
 data/*.parquet
 data/toutiao_cat_data*.csv
+data/product_names.csv
 .DS_Store
