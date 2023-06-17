@@ -1,2 +1,3 @@
 data/GoogleNews-vectors-negative300.bin.gz
 data/cc.en.300.bin
+data/*.parquet
