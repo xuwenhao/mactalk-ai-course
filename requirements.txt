@@ -11,6 +11,7 @@ async-timeout==4.0.2
 attrs==23.1.0
 Babel==2.12.1
 backcall==0.2.0
+backoff==2.2.1
 beautifulsoup4==4.12.2
 bleach==6.0.0
 blis==0.7.9
