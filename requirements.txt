@@ -46,6 +46,7 @@ greenlet==2.0.2
 idna==3.4
 ipykernel==6.23.1
 ipython==8.13.2
+ipywidgets==8.0.6
 isoduration==20.11.0
 jedi==0.18.2
 Jinja2==3.1.2
@@ -61,11 +62,13 @@ jupyter_server==2.6.0
 jupyter_server_terminals==0.4.4
 jupyterlab==4.0.0
 jupyterlab-pygments==0.2.2
+jupyterlab-widgets==3.0.7
 jupyterlab_server==2.22.1
 kiwisolver==1.4.4
 langchain==0.0.198
 langchainplus-sdk==0.0.8
 langcodes==3.3.0
+llama-index==0.6.27
 MarkupSafe==2.1.2
 marshmallow==3.19.0
 marshmallow-enum==1.5.1
@@ -144,15 +147,16 @@ tornado==6.3.2
 tqdm==4.65.0
 traitlets==5.9.0
 typer==0.7.0
-typing-inspect==0.9.0
-typing_extensions==4.6.2
+typing-inspect==0.8.0
+typing_extensions==4.5.0
 tzdata==2023.3
 uri-template==1.2.0
-urllib3==2.0.2
+urllib3==1.26.16
 wasabi==1.1.1
 wcwidth==0.2.6
 webcolors==1.13
 webencodings==0.5.1
 websocket-client==1.5.2
+widgetsnbextension==4.0.7
 yarl==1.9.2
 zh-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/zh_core_web_sm-3.5.0/zh_core_web_sm-3.5.0-py3-none-any.whl
