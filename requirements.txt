@@ -91,6 +91,7 @@ pexpect==4.8.0
 pickleshare==0.7.5
 Pillow==9.5.0
 platformdirs==3.5.1
+plotly==5.15.0
 preshed==3.0.8
 prometheus-client==0.17.0
 prompt-toolkit==3.0.38
