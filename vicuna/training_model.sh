@@ -11,7 +11,7 @@ nohup torchrun --nproc_per_node=4 --master_port=20001 fastchat/train/train_mem.p
     --per_device_eval_batch_size 4 \
     --gradient_accumulation_steps 16 \
     --evaluation_strategy "steps" \
-    --eval_steps 1200 \
+    --eval_steps 100 \
     --save_strategy "steps" \
     --save_steps 1200 \
     --save_total_limit 10 \
