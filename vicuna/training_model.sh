@@ -1,7 +1,10 @@
-export WANDB_API_KEY=YOUR_WANDB_API_KEY
-
 cd /workspace/FastChat
-nohup torchrun --nproc_per_node=4 --master_port=20001 fastchat/train/train_mem.py \
+
+apt-get install screen
+
+screen -S training_session
+export WANDB_API_KEY=YOUR_WANDB_API_KEY
+torchrun --nproc_per_node=4 --master_port=20001 fastchat/train/train_mem.py \
     --model_name_or_path  /workspace/llama-7b  \
     --data_path /workspace/wizard_vicuna_70k_unfiltered/wizard_vicuna_dataset_unfiltered.json \
     --bf16 True \
@@ -11,9 +14,9 @@ nohup torchrun --nproc_per_node=4 --master_port=20001 fastchat/train/train_mem.p
     --per_device_eval_batch_size 4 \
     --gradient_accumulation_steps 16 \
     --evaluation_strategy "steps" \
-    --eval_steps 100 \
+    --eval_steps 20 \
     --save_strategy "steps" \
-    --save_steps 1200 \
+    --save_steps 150 \
     --save_total_limit 10 \
     --learning_rate 2e-5 \
     --weight_decay 0. \

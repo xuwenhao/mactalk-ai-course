@@ -1,7 +1,11 @@
-export WANDB_API_KEY=f9c41c051cb87195d45bfbb00c6e89171b1015be
-
 cd /workspace/FastChat
-nohup torchrun --nproc_per_node=4 --master_port=20001 fastchat/train/train_mem.py \
+
+apt-get install screen
+
+screen -S training_session
+export WANDB_API_KEY=YOUR_WANDB_API_KEY
+
+torchrun --nproc_per_node=4 --master_port=20001 fastchat/train/train_mem.py \
     --model_name_or_path  /workspace/llama-7b  \
     --data_path data/dummy_conversation.json \
     --bf16 True \
