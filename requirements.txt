@@ -15,6 +15,8 @@ backoff==2.2.1
 beautifulsoup4==4.12.2
 bleach==6.0.0
 blis==0.7.9
+boto3==1.26.165
+botocore==1.29.165
 catalogue==2.0.8
 certifi==2023.5.7
 cffi==1.15.1
@@ -30,9 +32,13 @@ dataclasses-json==0.5.8
 debugpy==1.6.7
 decorator==5.1.1
 defusedxml==0.7.1
+dnspython==2.3.0
+email-validator==2.0.0.post2
+en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.5.0/en_core_web_sm-3.5.0-py3-none-any.whl
 exceptiongroup==1.1.1
 executing==1.2.0
 faiss-cpu==1.7.4
+fastapi==0.99.0
 fastjsonschema==2.17.1
 fastparquet==2023.4.0
 fasttext==0.9.2
@@ -44,14 +50,20 @@ fsspec==2023.6.0
 gensim==4.3.1
 google-search-results==2.4.2
 greenlet==2.0.2
+h11==0.14.0
+httpcore==0.17.2
+httptools==0.5.0
+httpx==0.24.1
 huggingface-hub==0.15.1
 idna==3.4
 ipykernel==6.23.1
 ipython==8.13.2
 ipywidgets==8.0.6
 isoduration==20.11.0
+itsdangerous==2.1.2
 jedi==0.18.2
 Jinja2==3.1.2
+jmespath==1.0.1
 joblib==1.2.0
 json5==0.9.14
 jsonpointer==2.3
@@ -90,6 +102,7 @@ numexpr==2.8.4
 numpy==1.24.3
 openai==0.27.7
 openapi-schema-pydantic==1.2.4
+orjson==3.9.1
 overrides==7.3.1
 packaging==23.1
 pandas==2.0.1
@@ -108,6 +121,7 @@ protobuf==4.23.3
 psutil==5.9.5
 ptyprocess==0.7.0
 pure-eval==0.2.2
+py-cpuinfo==9.0.0
 pyarrow==12.0.1
 pybind11==2.10.4
 pycparser==2.21
@@ -116,7 +130,9 @@ Pygments==2.15.1
 pyparsing==3.0.9
 pyrsistent==0.19.3
 python-dateutil==2.8.2
+python-dotenv==1.0.0
 python-json-logger==2.0.7
+python-multipart==0.0.6
 pytz==2023.3
 PyYAML==6.0
 pyzmq==25.1.0
@@ -124,6 +140,8 @@ regex==2023.5.5
 requests==2.31.0
 rfc3339-validator==0.1.4
 rfc3986-validator==0.1.1
+runpod==0.10.0
+s3transfer==0.6.1
 safetensors==0.3.1
 scikit-learn==1.2.2
 scipy==1.10.1
@@ -140,9 +158,11 @@ spacy-pkuseg==0.0.32
 SQLAlchemy==2.0.16
 srsly==2.4.6
 stack-data==0.6.2
+starlette==0.27.0
 tenacity==8.2.2
 termcolor==2.3.0
 terminado==0.17.1
+text-generation==0.6.0
 thinc==8.1.10
 threadpoolctl==3.1.0
 tiktoken==0.4.0
@@ -151,19 +171,25 @@ tokenizers==0.13.3
 tomli==2.0.1
 tornado==6.3.2
 tqdm==4.65.0
+tqdm-loggable==0.1.4
 traitlets==5.9.0
 transformers==4.30.0
 typer==0.7.0
 typing-inspect==0.8.0
 typing_extensions==4.5.0
 tzdata==2023.3
+ujson==5.8.0
 uri-template==1.2.0
 urllib3==1.26.16
+uvicorn==0.22.0
+uvloop==0.17.0
 wasabi==1.1.1
+watchfiles==0.19.0
 wcwidth==0.2.6
 webcolors==1.13
 webencodings==0.5.1
 websocket-client==1.5.2
+websockets==11.0.3
 widgetsnbextension==4.0.7
 yarl==1.9.2
 zh-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/zh_core_web_sm-3.5.0/zh_core_web_sm-3.5.0-py3-none-any.whl
